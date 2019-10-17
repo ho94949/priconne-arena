@@ -95,6 +95,7 @@ body {
  */
 .cover {
   padding: 0 1.5rem;
+  word-break: keep-all;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;

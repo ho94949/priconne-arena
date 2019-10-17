@@ -10,10 +10,11 @@ app.config['BASIC_AUTH_FORCE'] = True
 
 basic_auth = BasicAuth(app)
 
-@app.route('/')
-def hello():
-    name = request.args.get("name", "World")
-    return f'Hello, {escape(name)}!'
+
+import index 
+
+app.route('/')(index.mainpage)
+app.route('/favicon.ico')(index.favicon)
 
 
 if __name__ == '__main__':

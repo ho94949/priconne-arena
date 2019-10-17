@@ -165,3 +165,7 @@ dmypy.json
 #secret
 
 secret.py
+
+#files
+
+/static/files.zip

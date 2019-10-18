@@ -166,6 +166,10 @@ dmypy.json
 
 secret.py
 
+#databse
+
+/database
+
 #files
 
 /static/files.zip
